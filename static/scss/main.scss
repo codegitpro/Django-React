@@ -1,0 +1,26 @@
+@import '../../node_modules/styledot/scss/main';
+
+body {
+  background-color: $gray1b;
+  font-size: 16px;
+
+  &.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @import "registration";
+  }
+
+  &.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @import "index";
+  }
+}
+
+.hide {
+  display: none;
+}

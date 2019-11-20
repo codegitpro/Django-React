@@ -1,0 +1,5 @@
+django
+djangorestframework
+pyyaml
+django-webpack-loader
+django-model-utils
